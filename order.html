@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media ="screen and (max-width:1000px)" href="pho.css">
+    <title>order</title>
+    <style>
+        body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+    background-image: url("images/pc5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   background-size: cover;
+}
+.logo{
+    font-size: 40px;
+    color:white;
+    border-radius: 20px;
+    font-family: cursive;
+    display: flex;
+    left: 20px;
+    margin: 12px;
+    padding: 9px;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes logo{
+    from{
+    color:white;
+    }
+    to{
+    color:yellow;
+    }
+}
+.logo:hover{
+    color:white;
+    cursor:pointer;
+    
+}
+.navmenu{
+    font-family:cursive;
+    margin: 12px;
+}
+.navmenu ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.navmenu ul li a{
+    font-size: 23px;
+   color: white;
+    margin: 4px;
+    padding: 5px;
+    text-decoration: none;
+}
+.navmenu ul li a:hover,.navmenu ul li a.active{
+    border: 2px solid white;
+    color: yellow;
+    border-radius: 10px;
+}
+
+.buy1{
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.box1{
+  border: 2px solid white;
+  background-image: url("images/pc1.jpg");
+  width: 300px;
+  padding: 10px;
+  margin-top: 9px;
+  height: 300px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+.box2{
+    border: 2px solid white; 
+    background-image: url("images/pc3.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin-top: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+.box3{
+    border: 2px solid white;
+    background-image: url("images/pc10.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin-top: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+.buy2{
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    margin-top: 50px;
+    justify-content: space-around;
+  
+}
+.box4{
+    border: 2px solid white;
+    background-image: url("images/pc11.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin-top: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+.box5{
+    border: 2px solid white;
+    background-image: url("images/pc12.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin-top: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+.box6{
+    border: 2px solid white;
+    border-radius: 15px;
+    background-image: url("images/pc13.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin-top: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.he{
+  font-style: italic;
+  font-size: 66px;
+  color:yellow;
+}
+.btn2{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: cursive;
+    background-color: yellow;
+}
+.btn2:hover{
+    background-color: transparent;
+    border: 2px solid white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+            FOOODILOVE
+            </div>
+            <div class="navmenu">
+             <ul>
+                 <li><a href="main.html">Home</a></li>
+                 <li><a href="services.html">services</a></li>
+                 <li><a href="#"class="active" >order</a></li>
+                 <li><a href="contact.html">contact</a></li>
+             </ul>
+            </div>
+        </div>
+    </header>
+    <div class="buy1">
+       <div class="box1">
+           <h1 class="he">chowmin</h1>
+           <button class="btn2">buynow</button>
+       </div>
+       <div class="box2">
+        <h1 class="he">supersalad</h1>
+        <button class="btn2">buynow</button>
+       </div>
+       <div class="box3">
+        <h1 class="he">burger</h1>
+        <button class="btn2">buynow</button>
+       </div>
+    </div>
+    <div class="buy2">
+        <div class="box4">
+            <h1 class="he">snacks</h1>
+            <button class="btn2">buynow</button>
+        </div>
+        <div class="box5">
+            <h1 class="he">pizza</h1>
+            <button class="btn2">buynow</button>
+        </div>
+        <div class="box6">
+            <h1 class="he">C.B</h1>
+            <button class="btn2">buynow</button>
+        </div>
+    </div>
+</body>
+</html>

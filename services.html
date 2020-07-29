@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services</title>
+    <style>
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+    background-image: url("images/pc5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   background-size: cover;
+}
+.logo{
+    font-size: 40px;
+    color:white;
+    border-radius: 20px;
+    font-family: cursive;
+    display: flex;
+    left: 20px;
+    margin: 12px;
+    padding: 9px;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes logo{
+    from{
+    color:white;
+    }
+    to{
+    color:yellow;
+    }
+}
+.logo:hover{
+    color:white;
+    cursor:pointer;
+    
+}
+.navmenu{
+    font-family:cursive;
+    margin: 12px;
+}
+.navmenu ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.navmenu ul li a{
+    font-size: 23px;
+   color: white;
+    margin: 4px;
+    padding: 5px;
+    text-decoration: none;
+}
+.navmenu ul li a:hover,.navmenu ul li a.active{
+    border: 2px solid white;
+    color: yellow;
+    border-radius: 10px;
+    
+}
+.services{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    font-size: 40px;
+    align-items: center;
+    animation-name: services;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes services 
+ { 
+     from{
+         color: white;
+     }
+    to{
+        color: yellow;
+    }
+}
+.services ul li a{
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    margin-bottom:40px;
+    padding: 40px;
+}
+ul li a:hover{
+    color: yellow;
+}
+
+    </style>
+</head>
+<body>
+      <header>
+    <div class="navbar">
+        <div class="logo">
+        FOOODILOVE
+        </div>
+        <div class="navmenu">
+         <ul>
+             <li><a href="main.html">Home</a></li>
+             <li><a href="#" class="active">services</a></li>
+             <li><a href="order.html">order</a></li>
+             <li><a href="#">contact</a></li>
+         </ul>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="services">
+     <h1>FOOODILOVE SERVICES</h1>
+     <ul>
+         <li><a href="">online order</a></li>
+         <li><a href="">table booking for functions</a> </li>
+         <li><a href="">fvrt dishes in cheap rate</a></li>
+         </ul>
+    </div>
+    </section></body>
+</body>
+</html>

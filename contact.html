@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+      body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+    background-image: url("images/pc5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   background-size: cover;
+}
+.logo{
+    font-size: 40px;
+    color:white;
+    border-radius: 20px;
+    font-family: cursive;
+    display: flex;
+    left: 20px;
+    margin: 12px;
+    padding: 9px;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes logo{
+    from{
+    color:white;
+    }
+    to{
+    color:yellow;
+    }
+}
+.logo:hover{
+    color:white;
+    cursor:pointer;
+    
+}
+.navmenu{
+    font-family:cursive;
+    margin: 12px;
+}
+.navmenu ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.navmenu ul li a{
+    font-size: 23px;
+   color: white;
+    margin: 4px;
+    padding: 5px;
+    text-decoration: none;
+}
+.navmenu ul li a:hover,.navmenu ul li a.active{
+    border: 2px solid white;
+    color: yellow;
+    border-radius: 10px;
+    
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 10px;
+    align-items: center;
+}
+.contact h1{
+    font-size: 50px;
+    color: white;
+    font-family: cursive;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-size: large;
+}
+.contact a:hover{
+    color: yellow;
+}
+
+
+    </style>
+</head>
+<body>
+      <header>
+    <div class="navbar">
+        <div class="logo">
+        FOOODILOVE
+        </div>
+        <div class="navmenu">
+         <ul>
+             <li><a href="main.html">Home</a></li>
+             <li><a href="services.html">services</a></li>
+             <li><a href="order.html">order</a></li>
+             <li><a href="#" class="active">contact</a></li>
+         </ul>
+        </div>
+    </div>
+</header>
+<div class="contact">
+<h1>Email</h1>
+ <a href="mailto: premsaiswain@gmail.com">premsaiswain@gmail.com</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,227 @@
+/* header part */
+/* main navbar that contains logo navmenu*/
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+    background-image: url("images/pc5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   background-size: cover;
+}
+.logo{
+    font-size: 40px;
+    color:white;
+    border-radius: 20px;
+    font-family: cursive;
+    display: flex;
+    left: 20px;
+    margin: 12px;
+    padding: 9px;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes logo{
+    from{
+    color:white;
+    }
+    to{
+    color:yellow;
+    }
+}
+.logo:hover{
+    color:white;
+    cursor:pointer;
+    
+}
+.navmenu{
+    font-family:cursive;
+    margin: 12px;
+}
+.navmenu ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.navmenu ul li a{
+    font-size: 23px;
+   color: white;
+    margin: 4px;
+    padding: 5px;
+    text-decoration: none;
+}
+.navmenu ul li a:hover,.navmenu ul li a.active{
+    border: 2px solid white;
+    color: yellow;
+    border-radius: 10px;
+    
+}
+/*section part */
+.contant{
+    display: flex;
+    background-color: rgba(0,0,0,0.7);
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.contant h1{
+    font-size: 40px;
+    font-family: cursive;
+    color: white;
+}
+.contant p{
+    font-family: cursive;
+    color:white;
+    font-size: 25px;
+
+}
+.btn{
+    margin: 8px;
+    border-radius: 10px;
+    font-family: cursive;
+    padding: 12px;
+    background-color:yellow;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: transparent;
+    color: white;
+}
+
+.contant1{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgba(0,0,0,0.7);
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 100%;
+    padding: 10px;
+    height: 350px;
+}
+.img1{
+    border: 2px solid white;
+    align-items: center;
+    border-radius:10px;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-image: url("images/pc7.jpg");
+    background-size: cover;
+    animation-name: burger;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.img1 a{
+    text-decoration: none;
+}
+.img1 a h1:hover{
+    color: yellow;
+}
+@keyframes burger{
+    from{
+     background-image: url("images/pc7.jpg");
+     background-size: cover;
+   }
+    to{ 
+        background-image: url("images/pc10.jpg");
+        background-size: cover;
+
+    }
+}
+.img2{
+   border: 2px solid white;
+   border-radius: 10px;
+   width:300px;
+   height: 300px;
+   margin:10px;
+   padding: 10px;
+   background-image: url("images/pc14.jpg");
+   background-size: cover;
+   animation-name: meal;
+   animation-duration: 8s;
+   animation-iteration-count: 2;
+}
+.img2 a{
+    text-decoration: none;
+}
+.img2 a h1:hover{
+    color: yellow;
+}
+@keyframes meal{
+    from{
+         background-image: url("images/pc14.jpg");
+         background-size: cover;
+    }
+    to{
+        background-image: url("images/pc13.jpg");
+        background-size: cover;
+    }
+}
+.img3{
+  border:  2px solid white;
+  border-radius: 10px;
+  background-image: url("images/pc11.jpg");
+  background-size: cover;
+  width:300px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  animation-name: snacks;
+  animation-duration: 8s;
+  animation-iteration-count: 2;
+}
+.img3 a{
+    text-decoration: none;
+}
+.img3 a h1:hover{
+    color: yellow;
+}
+@keyframes snacks{
+    from{
+      background-image: url("images/pc11.jpg");
+      background-size: cover;
+    }
+    to{
+      background-image: url("images/pc8.jpg");
+      background-size: cover;
+    }
+}
+.img1 h1{
+    font-size: 45px;
+    font-family: cursive;
+    display: flex;
+    padding:20px;
+    margin-top:70px;
+    color: white;
+    align-items: center;
+}
+.img2 h1{
+    font-size: 45px;
+    font-family: cursive;
+    display: flex;
+    margin-left: 20px;
+    padding: 20px;
+    margin-top: 70px;
+    color: white;
+    align-items: center;
+}
+.img3 h1{
+    font-size: 45px;
+    font-family: cursive;
+    margin-left: 20px;
+    display: flex;
+    padding: 20px;
+    margin-top: 70px;
+    color: white;
+    align-items: center;
+}
